@@ -19,7 +19,11 @@ const theme =
         prussianBlue: '#102b3f',
         lightCyan: '#c9f9ff',
         jazzberry: '#950952',
-        crimson: '#A51C30'
+        crimson: '#A51C30',
+        HCMC: '#ffff33',
+        mango: '#F5B700',
+        malachite: '#04e762',
+        carolinaBlue: '#00a1e4'
     },
     fonts: {},
 }

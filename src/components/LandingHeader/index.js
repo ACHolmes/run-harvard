@@ -1,4 +1,3 @@
-
 import React from "react"
 import { LandingHeaderBack, LandingHeaderFront, LandingHeaderTitle, Run, Harvard, LandingHeaderButtonContainer, LandingHeaderButton } from "./styles"
 import { HashLink} from "react-router-hash-link"

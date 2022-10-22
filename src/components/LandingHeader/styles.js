@@ -3,8 +3,9 @@ import styled from "styled-components";
 import run from "./../../assets/run.jpg"
 
 export const LandingHeaderBack = styled.div`
+    margin: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-image: url(${run});

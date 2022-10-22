@@ -20,7 +20,7 @@ export const SidebarItem = styled.div`
     color: ${props => props.theme.colors.crimson};
     font-weight: bolder;
     border-top: 1px solid ${props => props.theme.colors.crimson};
-    background: linear-gradient(to bottom, ${props => props.theme.colors.white} 50%, ${props => props.theme.colors.crimson} 50%) top;
+    background: linear-gradient(to bottom, transparent 50%, ${props => props.theme.colors.crimson} 50%) top;
     background-size: 100% 200%;
     transition: .5s ease-out;
     &:hover{
