@@ -65,36 +65,38 @@ export const LandingHeaderButton = styled.button`
 export const MainSecondSection = styled.div`
     height: 300vh;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
-    z-index: -2;
-    background-color: ${props => props.theme.colors.lightCyan};
-    overflow: hidden;
 `
 
 export const SidebarArea = styled.div`
-    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
     height: 100vh;
+    width: 15vw;
     flex: 1;
-    background-color: blue;
 `
 
 export const ContentArea = styled.div`
-    flex: 5;
+    width: 85vw;
+    position: absolute;
+    top: 100vh;
+    left: 15vw;
+    height: 100vh;
     background-color: black;
 `
 
 export const Sidebar = styled.div`
-    flex: 1;
-    position: sticky;
     background-color: inherit;
     z-index: 0;
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
-    
+    justify-content: flex-start;
+    gap: 1vh;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    height: 100vh;
 
 `
 

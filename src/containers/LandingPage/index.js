@@ -40,18 +40,20 @@ const LandingPage = () =>
         </LandingHeaderBack>
         <MainSecondSection>
         <SidebarArea>
-            here
-        {/* <Sidebar>
+         <Sidebar>
             <SidebarItem id="here">
                 Home
             </SidebarItem>
             <SidebarItem>
-                Main
+                Harvard Running Club
             </SidebarItem>
             <SidebarItem>
-                Test
+                Harvard College Marathon Challenge
             </SidebarItem>
-        </Sidebar>  */}
+            <SidebarItem>
+                Harvard on the Move
+            </SidebarItem>
+        </Sidebar>
         </SidebarArea>
         <ContentArea>
             Test
